@@ -39,6 +39,9 @@ module.exports = function(environment) {
     ENV.APP.LOG_ACTIVE_GENERATION = false;
     ENV.APP.LOG_VIEW_LOOKUPS = false;
 
+    // Help with seeing what's going on with the router.
+    ENV.APP.LOG_TRANSITIONS = true;
+
     ENV.APP.rootElement = '#ember-testing';
   }
 
