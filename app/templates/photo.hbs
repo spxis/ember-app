@@ -1,0 +1,8 @@
+<h3>Photos</h3>
+{{#each model as |photo|}}
+    <p>
+        {{#link-to 'photo' photo}}
+            <img src="{{photo.thumbnailUrl}}" alt="{{photo.title}}" />
+        {{/link-to}}
+    </p>
+{{/each}}

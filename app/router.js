@@ -11,6 +11,9 @@ Router.map(function () {
   this.route('test');
   this.route('about');
   this.route('favorites', {path: '/favs'});
+  this.route('photo', { path: '/photos/:photo_id' });
+  this.route('favourite-quote');
+  this.route('not-found', {path: '/*bad'});
 });
 
 export default Router;
