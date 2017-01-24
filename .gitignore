@@ -15,3 +15,39 @@
 /libpeerconnection.log
 npm-debug.log*
 testem.log
+
+# Log files
+logs/
+*.log
+
+# Temporary folders
+temp
+tmp/
+*.tmp
+*.bak
+*.swp
+Temporary Items
+
+# Jetbrains and JIRA
+.idea/
+.idea_modules/
+*.ipr
+*.iml
+*.iws
+atlassian-ide-plugin.xml
+
+# SublimtText user-specific
+*.sublime-workspace
+# If everyone is using sublime then this should be commented out
+*.sublime-project
+sftp-config.json
+
+# OSX related
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spolight-V100
+.Trashes
+
