@@ -9,7 +9,9 @@ const Router = Ember.Router.extend({
 Router.map(function () {
   this.route('hello');
   this.route('test');
+  this.route('contact');
   this.route('about');
+  this.route('photos');
   this.route('favorites', {path: '/favs'});
   this.route('photo', { path: '/photos/:photo_id' });
   this.route('favourite-quote');
